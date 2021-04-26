@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9FFEB3B"
+
+    tools:context=".fetchFromFB">
+
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Fetch user from Firebase"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/useridSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeTitle"
+        android:ems="10"
+        android:hint="Please Enter user ID"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/Featchbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/useridSearch"
+        android:layout_centerHorizontal="true"
+        android:onClick="getuserAction"
+        android:text="Fetch user" />
+
+    <LinearLayout
+        android:id="@+id/allValues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Featchbt"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ffirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/flastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/femail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

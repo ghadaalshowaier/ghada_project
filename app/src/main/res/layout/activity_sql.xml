@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6FFEB3B"
+    tools:context=".sql">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:text="SQL database"
+        android:textColor="#070707"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/FetchSuserSQlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="gofetchSusersqlite"
+            android:text="fetch user" />
+
+        <Button
+            android:id="@+id/FetchAllusersqlite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="getAllUsersqlite"
+            android:text="fetch all users" />
+
+
+        <Button
+            android:id="@+id/addValuesFromFireTosql"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="addValuesFromFireTosqlaction"
+            android:text="add all users from firebase to sql" />
+    </LinearLayout>
+
+
+</RelativeLayout>

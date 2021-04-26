@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3FFEB3B"
+    tools:context=".startPage">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Hello, you are now in Ghada's project"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/fireBaseApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="go to firebase database" />
+
+        <Button
+            android:id="@+id/SQLLiteApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="go to sql database" />
+
+        <Button
+            android:id="@+id/WwatherApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="check the weather" />
+    </LinearLayout>
+
+
+</RelativeLayout>

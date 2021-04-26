@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A9FFEB3B">
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Add user to Firebase"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/addfirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editUser"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/addlastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editfirstName"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/addPhoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editlastName"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Phone Number"
+            android:inputType="phone" />
+
+
+        <EditText
+            android:id="@+id/addemailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editPhoneNumber"
+            android:layout_marginTop="30sp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Email Address"
+            android:inputType="textEmailAddress" />
+
+        <Button
+            android:id="@+id/addTofirebt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addUserToFireBase"
+            android:text="Add User" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

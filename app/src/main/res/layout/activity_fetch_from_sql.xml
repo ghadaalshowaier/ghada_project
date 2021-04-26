@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADFFEB3B"
+
+    tools:context=".fetchFromSQL">
+
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Fetch user from SQlite"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold"
+
+
+        />
+
+    <EditText
+        android:id="@+id/SQuseridSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/homeTitle"
+        android:ems="10"
+        android:hint="Please Enter user ID"
+        android:inputType="textPersonName"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:id="@+id/SQFeatchbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SQuseridSearch"
+        android:layout_centerHorizontal="true"
+        android:onClick="SQgetuserActionSqlite"
+        android:text="Fetch user" />
+
+    <LinearLayout
+        android:id="@+id/SQallValues"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/SQFeatchbt"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/SQffirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SQflastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SQfphonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/SQfemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="TextView"
+
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>

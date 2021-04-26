@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.Ghada_project">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ghada_project">
+        <activity android:name=".viewfuser"></activity>
+        <activity android:name=".fuser" />
+        <activity android:name=".fetchFromSQL" />
+        <activity android:name=".sql" />
+        <activity android:name=".fetchFromFB" />
+        <activity android:name=".add2FB" />
+        <activity android:name=".fb" />
+        <activity android:name=".startPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".theWeather" />
+        <activity android:name=".searchWeather" />
+        <activity android:name=".edit" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A3FFEB3B"
+    tools:context=".fb">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Firebase"
+        android:textColor="#070707"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/insertuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="goInserUser"
+
+            android:text="add user" />
+
+        <Button
+            android:id="@+id/FetchSuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="gofetchSuser"
+            android:text="fetch user" />
+
+        <Button
+            android:id="@+id/FetchAlluser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:onClick="getAllUser"
+            android:text="fetch all users" />
+    </LinearLayout>
+
+</RelativeLayout>

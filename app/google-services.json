@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "160071127079",
+    "firebase_url": "https://ghada-firebase-default-rtdb.firebaseio.com",
+    "project_id": "ghada-firebase",
+    "storage_bucket": "ghada-firebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160071127079:android:7ab7e6602a71d076b8fe02",
+        "android_client_info": {
+          "package_name": "alfaisal.ghada.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160071127079-nbsqqd1afrq2b65bvcdtrnkq1jrm57c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_LW_c_rHFWVjfpVWr_QvHyiFg_I1CU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160071127079-nbsqqd1afrq2b65bvcdtrnkq1jrm57c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160071127079:android:74220263ac0b4ad5b8fe02",
+        "android_client_info": {
+          "package_name": "com.Ghada_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160071127079-nbsqqd1afrq2b65bvcdtrnkq1jrm57c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY_LW_c_rHFWVjfpVWr_QvHyiFg_I1CU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160071127079-nbsqqd1afrq2b65bvcdtrnkq1jrm57c3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
